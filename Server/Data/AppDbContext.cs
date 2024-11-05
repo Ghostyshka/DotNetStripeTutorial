@@ -24,7 +24,7 @@ public sealed class AppDbContext : DbContext
             {
                 Id = Guid.NewGuid().ToString(),
                 Title = $"Product {i}",
-                Description = $"Product {i} description. This is an amazing product with a price-quality balance you won't find anywhere ele.",
+                Description = $"Product {i} description. This is an amazing product with a price-quality balance you won't find anywhere else.",
                 ImageUrl = $"https://picsum.photos/id/{i}/500",
                 Price = 1000 * i,
             };
